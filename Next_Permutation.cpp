@@ -19,7 +19,6 @@
                 int n=nums[i];
                 nums[i]=nums[index];
                 nums[index]=n;
-
                 break;
             }
         }
