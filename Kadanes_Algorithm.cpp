@@ -17,7 +17,7 @@ int maxSubArray(vector<int>& nums)
 
 //Not My Solution:
 /*
- Divide-and-Conquer:
+ Divide-and-Conquer
 The Divide-and-Conquer algorithm breaks nums into two halves and find the maximum subarray sum in them recursively. 
 Well, the most tricky part is to handle the case that the maximum subarray spans the two halves. For this case, 
 we use a linear algorithm: starting from the middle element and move to both ends (left and right ends), record
