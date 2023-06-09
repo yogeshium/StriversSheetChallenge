@@ -1,4 +1,4 @@
-//Solution: 
+//Solution:  TC: O(n*(2n-1)) sc= O(n*(2n-1))
 vector<vector<int>> generate(int n) 
     {
         vector<vector<int>> res;
