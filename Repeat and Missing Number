@@ -1,4 +1,8 @@
 //Solution (Using math) : TC - O(n)  SC - O(1)
+/*
+    sum (1...N) - sum(Actual) = b-a;
+    sum(1^2 ... N^2) - sum(Actual^2) = b^2 - a^2;
+*/
 vector<int> Solution::repeatedNumber(const vector<int> &A) 
 {
     vector<int> ans(2,0);
